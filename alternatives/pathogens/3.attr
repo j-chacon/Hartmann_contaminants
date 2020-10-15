@@ -1,0 +1,86 @@
+{
+    "Presence_surf_water": {
+        "function": "Uniform",
+        "parameters": {
+            "a": 3.0,
+            "b": 3.0
+        }
+    },
+    "Beh_WWTP": {
+        "function": "Normal",
+        "parameters": {
+            "mu": 2.15,
+            "std": 0.54
+        }
+    },
+    "Per_surf_water": {
+        "function": "Normal",
+        "parameters": {
+            "mu": 7.25,
+            "std": 1.81
+        }
+    },
+    "coa_rf": {
+        "function": "Beta",
+        "parameters": {
+            "a": 1.90,
+            "b": 12.00
+        }
+    },
+    "ac": {
+        "function": "Uniform",
+        "parameters": {
+            "a": 0.0,
+            "b": 0.0
+        }
+    },
+    "uv_dis": {
+        "function": "Beta",
+        "parameters": {
+            "a": 0.08,
+            "b": 25.00
+        }
+    },
+    "Poll_DS": {
+        "function": "Normal",
+        "parameters": {
+            "mu": 198.5,
+            "std": 49.63
+        }
+    },
+    "sec_spread": {
+        "function": "Uniform",
+        "parameters": {
+            "a": 1.0,
+            "b": 1.0
+        }
+    },
+    "discomfort": {
+        "function": "Multinomial",
+        "parameters": {
+            "val": [0.073, 0.149, 0.239],
+            "prob": [0.97, 0.02, 0.002]
+        }
+    },
+    "imp_exposure": {
+        "function": "Uniform",
+        "parameters": {
+            "a": 0.0,
+            "b": 5.0
+        }
+    },
+    "p_death": {
+        "function": "Multinomial",
+        "parameters": {
+            "val": [0.0, 1.0],
+            "prob": [0.999977, 0.000023]
+        }
+    },
+    "sequelae": {
+        "function": "Multinomial",
+        "parameters": {
+            "val": [0.0],
+            "prob": [1.0]
+        }
+    }
+}

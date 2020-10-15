@@ -1,0 +1,100 @@
+{
+    "Presence_surf_water": {
+        "function": "Multinomial",
+        "parameters": {
+            "val": [1.0],
+            "prob": [1.0]
+        }
+    },
+    "Beh_WWTP": {
+        "function": "Uniform",
+        "parameters": {
+            "a": 1.92,
+            "b": 1.92
+        }
+    },
+    "Per_surf_water": {
+        "function": "Uniform",
+        "parameters": {
+            "a": 202.8,
+            "b": 202.8
+        }
+    },
+    "Poll_DS": {
+        "function": "Multinomial",
+        "parameters": {
+            "val": [0.0],
+            "prob": [1.0]
+        }
+    },
+    "Gene_mut": {
+        "function": "Multinomial",
+        "parameters": {
+           "val": [0.0],
+           "prob": [1.0]
+        }
+    },
+    "Chrom_mut": {
+        "function": "Multinomial",
+        "parameters": {
+            "val": [1.0],
+            "prob": [1.0]
+        }
+    },
+    "Reprotoxic": {
+        "function": "Multinomial",
+        "parameters": {
+            "val": [0.0],
+            "prob": [1.0]
+        }
+    },
+    "Carcinogenic": {
+        "function": "Multinomial",
+        "parameters": {
+            "val": [2.0],
+            "prob": [1.0]
+        }
+    },
+    "CMR": {
+        "function": "Multinomial",
+        "parameters": {
+            "val": [0.0],
+            "prob": [1.0]
+        }
+    },
+    "Endoc_disr": {
+        "function": "Multinomial",
+        "parameters": {
+            "val": [1.0],
+            "prob": [1.0]
+        }
+    },
+    "imp_exposure": {
+        "function": "Uniform",
+        "parameters": {
+            "a": 0.0,
+            "b": 20.0
+        }
+    },
+    "sec_spread": {
+        "function": "Multinomial",
+        "parameters": {
+            "val": [0.0],
+            "prob": [1.0]
+        }
+    },
+    "Log_Koc": {
+        "function": "Uniform",
+        "parameters": {
+            "a": 1.83,
+            "b": 3.28
+        }
+    },
+    "Log_Kaw": {
+        "function": "Uniform",
+        "parameters": {
+            "a": -16.2,
+            "b": -16.2
+        }
+    }
+}

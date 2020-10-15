@@ -1,0 +1,5 @@
+idx;name;Source available_min;Source available_max;Percentage removed_WWTP*_min;Percentage removed_WWTP*_max;half-life in water*_min;half-life in water*_max;Log Koc *_min;Log Koc *_max;Log Kaw*_min;Log Kaw*_max;Material network_min;Material network_max;Gene_mut_min;Gene_mut_max;Chrom_Mutation_min;Chrom_Mutation_max;DART scheme_min;DART scheme_max;Carcinogenicity _ISS_min;Carcinogenicity _ISS_max;CMR similarity _min;CMR similarity _max;ER Binding _min;ER Binding _max;ED similarity _min;ED similarity _max;Allocation_dw_min;Allocation_dw_max;sec_spread_min;sec_spread_max
+5;prazosine;1;1;1.92;1.92;202.8;202.8;1.83;3.28;-16.2;-16.2;0;0;1;1;1;1;0;0;2;2;0;0;1;1;;;0;20;0;0
+6;Perfluorooctanoic acid;0;1;2.19;2.19;1299.1;1299.1;2.82;4.42;0.87;0.87;0;0;0;1;0;1;0;0;2;2;1;1;1;1;;;0;10;0;0
+7;3-(4-tert-Butylphenyl)propanal;2;2;27.53;27.53;47.83;47.83;2.4;2.88;-3.11;-3.11;0;0;0;1;0;1;1;1;2;2;0;0;1;1;;;0;100;0;0
+8;Minocycline;1;1;1.85;1.85;259.31;259.31;0.55;1;-22.2;-22.2;0;0;0;1;0;1;0;0;1;1;0;0;4;4;;;0;10;0;0
